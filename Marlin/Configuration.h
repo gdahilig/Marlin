@@ -339,11 +339,10 @@
 //  #define  DEFAULT_Ki 3.88
 //  #define  DEFAULT_Kd 664.28
 
-
-// The Genobot with Titan Aero
-  #define  DEFAULT_Kp 23.56
-  #define  DEFAULT_Ki 1.84
-  #define  DEFAULT_Kd 75.26
+// TheGenobot with Titan Aero: M303 S250
+#define  DEFAULT_Kp 28.25
+#define  DEFAULT_Ki 3.41
+#define  DEFAULT_Kd 58.43
 
   // Ultimaker
   //#define  DEFAULT_Kp 22.2
@@ -769,7 +768,7 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 355
+#define X_MAX_POS 205
 #define Y_MAX_POS 205
 #define Z_MAX_POS 210
 
@@ -840,7 +839,7 @@
 //#define AUTO_BED_LEVELING_LINEAR
 //#define AUTO_BED_LEVELING_BILINEAR
 //#define AUTO_BED_LEVELING_UBL
-//#define MESH_BED_LEVELING
+#define MESH_BED_LEVELING
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
@@ -929,7 +928,7 @@
   //=================================== Mesh ==================================
   //===========================================================================
 
-  #define MESH_INSET 10          // Mesh inset margin on print area
+  #define MESH_INSET 35          // Mesh inset margin on print area
   #define GRID_MAX_POINTS_X 3    // Don't use more than 7 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
