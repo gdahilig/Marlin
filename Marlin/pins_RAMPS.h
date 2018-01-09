@@ -187,7 +187,8 @@
 #endif
 
 #ifndef FAN_PIN
-  #define FAN_PIN 4      // IO pin. Buffer needed
+  // #define FAN_PIN 4      // IO pin. Buffer needed
+  #define FAN_PIN 5      // PIN 4 dead.  Switching fan to pin 5
 #endif
 
 //
